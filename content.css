@@ -1,0 +1,30 @@
+.header__container {
+  background-color: #212f3c;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__item {
+  font-size: 20px;
+  color: #ff5733;
+  padding: 10px;
+}
+
+.header__title {
+  background-color: #ff5733;
+  padding: 10px;
+  justify-content: center;
+  border-top: 5px solid black;
+  display: flex;
+}
+
+.header__content {
+  color: #ffc300;
+  justify-content: center;
+}
+
+.first__container {
+    background-color:  #5d6d7e ;
+    color: #5dade2;
+    padding: 0 10px;
+}
