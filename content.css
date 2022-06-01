@@ -27,4 +27,13 @@
     background-color:  #5d6d7e ;
     color: #5dade2;
     padding: 0 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.second__container {
+  background-color:  #e74c3c ;
+  color: #f7dc6f;
+  
+
 }
