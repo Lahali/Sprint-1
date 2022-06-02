@@ -25,7 +25,7 @@ header {
   width: 50%;
   background-color: #ff5733;
   padding: 10px;
-  margin: 1rem;
+  margin: 0, 5rem;
 }
 
 .header__title {
@@ -98,4 +98,49 @@ footer {
   height: 50px;
   margin-top: 1rem;
   background-color: #f5b041;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    border: 15px solid black;
+  }
+
+  .header__title {
+    border-top: 10px solid black;
+  }
+
+  main {
+    border: 15px solid yellow;
+    flex-direction: column;
+  }
+
+  .first__container {
+    width: 100%;
+  }
+
+  .first__container--item {
+    height: 15px;
+  }
+
+  .first__container--item1 {
+    height: 15px;
+  }
+
+  .second__container {
+    width: 100%;
+    border-top: 15px solid yellow;
+    border-left: 0;
+    align-items: center;
+  }
+
+  .second__container--item {
+    height: 15px;
+    width: 90%;
+    flex-grow: 1;
+  }
+
+  footer {
+    border: 15px solid black;
+    height: 40px;
+  }
 }
